@@ -12,7 +12,7 @@ After use the commando for init the module
 
 insmod ./chardevice.ko
 
-mknod /dev/vh01 c 241 0
+mknod /dev/vh01 c "Major version" "Minor version or 0"
 
 For verify the module use
 
